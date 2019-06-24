@@ -1,0 +1,17 @@
+500/actual kg eg. 500/473 = 1.06 aprox. // weight potentially doesnt matter at all.. it's just a max 
+
+200-actual eg. 200/160 = 1.25 // max we've seen is 173, possible that best fitness would tend toward 175-200..?
+							  // we've now see a max of 186.0, so I think we can assume it tends towards 200
+							  // increase in pop size saw a max of 189 but it took 60 secs... 
+							  // may have to trade off the high answer for time
+							  // a pop size of 100000000 and 355 seconds later gets us 193, 200 definitely seems to be the max
+1.06+1.25=2.31 approx. 
+
+-- assume 175 max --
+175/160 = 1.09365 // if(>175) { hmmmm }
+1.09365 - 1 = .09365
+175/172 = 1.017441860465116
+1.017441860465116 - 1 = .017441860465116 
+
+-------------------
+https://www.tutorialspoint.com/genetic_algorithms/genetic_algorithms_fitness_function.htm
